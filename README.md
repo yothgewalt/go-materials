@@ -18,6 +18,8 @@ $ air init
 ```
 
 ## How to configure Air (Hot Reload)
+How to Inject Environment variables into Air execution You need to use the command of your OS to export and use it.
+
 Configuration on <b>Mac OS X</b> </br >
 
 1. Add `;export $(grep -v '^#' .env | xargs);` into <b>.air.toml</b> at bin = "..."
@@ -46,3 +48,5 @@ air
 
 - Google Styles: https://google.github.io/styleguide/go/
 
+## Postman Installation
+- Postman: https://www.postman.com/downloads/
